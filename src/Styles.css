@@ -1,0 +1,70 @@
+/* card */
+#card {
+  margin: 20px;
+  padding: 20px;
+}
+.cards {
+  color: white;
+  width: auto;
+  height: auto;
+}
+.cardBtn {
+  color: white;
+  padding: 10px;
+  border: 1px white solid;
+}
+.cardParagraph {
+  height: 150px;
+  overflow-y: scroll;
+}
+/* main */
+#mainHead {
+  color: red;
+}
+#mainDiv {
+  padding: 0 20px;
+}
+#mainCard {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  font-family: "Times New Roman";
+}
+#mainFooter {
+  display: flex;
+  justify-content: flex-end;
+}
+@media only screen and (max-width: 768px) {
+  #mainCard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  #mainFooter {
+    display: flex;
+    justify-content: center;
+  }
+  #inputText {
+    margin-left: 5px;
+    padding: 10px;
+    width: 150px;
+  }
+}
+/* footer */
+#inputBtn {
+  color: red;
+  padding: 10px;
+  border: 1px red solid;
+}
+@media only screen and (min-width: 768px) {
+  #inputText {
+    margin-left: 5px;
+    padding: 10px;
+    width: 350px;
+  }
+}
+/* index */
+body {
+  min-height: 100%;
+  background-color: #dddfe0;
+  padding: 0 20px;
+}
